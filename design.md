@@ -2,244 +2,364 @@
 Jai-Paul Sooriya (Student)
 Anas Abdulkadir (Student)
 
-<!DOCTYPE html>
-<html lang="en">
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>YourChoiceAccom Logo</title>
-<style>
-/* Logo Container */
-.logo-container {
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: #0077b6; /* Blue background */
-color: white;
-font-family: 'Poppins', sans-serif; /* Modern font */
-font-size: 2.5em;
-font-weight: bold;
-padding: 20px;
-border-radius: 10px;
-width: fit-content;
-margin: 50px auto;
-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Icon Style */
-.logo-icon {
-width: 50px;
-height: 50px;
-margin-right: 15px;
-}
-</style>
-</head>
-<body>
-
-<!-- Logo Section -->
-<div class="logo-container">
-<!-- Simple Home Icon -->
-<svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
-<path d="M12 3l10 9h-3v9h-6v-6h-2v6h-6v-9h-3l10-9z"/>
-</svg>
-YourChoiceAccom
-</div>
-
-</body>
-</html>
-
+HOME PAGE:
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Navigation</title>
+<title>YourChoiceAccom - Home</title>
 <style>
-/* Main Navigation Container */
-.nav-container {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #0077b6; /* Blue background */
-padding: 15px 20px;
-border-radius: 10px;
-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Navigation Buttons */
-.nav-btn {
-font-family: 'Poppins', sans-serif;
-font-size: 1.2em;
-font-weight: 600;
-color: white;
-text-decoration: none;
-padding: 8px 15px;
-border-radius: 5px;
-background-color: #005f87; /* Slightly darker blue */
-}
-
-/* Top Left - Home Button */
-.home-btn {
-font-size: 1em;
-background-color: #004466; /* Darker shade */
-}
-
-/* Top Right - Log In/Sign Up */
-.auth-buttons {
-display: flex;
-gap: 10px;
-}
-
-.auth-btn {
-font-size: 0.9em;
-padding: 5px 12px;
-background-color: #00334d; /* Even darker shade */
-}
-
-/* Bottom Right - Home Button */
-.bottom-home {
-position: fixed;
-bottom: 20px;
-right: 20px;
-}
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    /* Header */
+    .header {
+        background-color: #0077b6;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    /* Navigation */
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #005f87;
+        padding: 15px 20px;
+    }
+    .nav-btn {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 1.2em;
+    }
+    .nav-btn:hover {
+        background-color: #004466;
+    }
+    /* Banner */
+    .banner {
+        text-align: center;
+        padding: 50px;
+        background-color: #0077b6;
+        color: white;
+        font-size: 1.5em;
+    }
+    .banner img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    /* Content */
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+    .features {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .feature {
+        background: #0077b6;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        flex: 1;
+        margin: 10px;
+    }
 </style>
 </head>
 <body>
 
-<!-- Top Navigation -->
+<div class="header">YourChoiceAccom - Student Housing</div>
+
+<!-- Navigation Bar -->
 <nav class="nav-container">
-<!-- Top Left: Home Button -->
-<a href="#" class="nav-btn home-btn">Go Back to Home</a>
-
-<!-- middle: Map -->
-<a href="#" class="nav-btn auth-btn">Map</a>
-<!-- Top Right: Log In / Sign Up -->
-<div class="auth-buttons">
-<a href="#" class="nav-btn auth-btn">Log In</a>
-<a href="#" class="nav-btn auth-btn">Sign Up</a>
-</div>
+    <a href="home page.html" class="nav-btn">Home</a>
+    <a href="profile page.html" class="nav-btn">Profile</a>
+    <a href="login.html" class="nav-btn">Log In</a>
 </nav>
 
-<!-- Bottom Right: Home Button -->
-<a href="#" class="nav-btn home-btn bottom-home">Go Back to Home</a>
+<!-- Banner Section -->
+<div class="banner">
+    <h1>Find Your Perfect Student Home</h1>
+</div>
+
+<!-- Main Content -->
+<div class="container">
+    <h2>Why Choose Us?</h2>
+    <p>We offer a variety of student accommodations tailored to your needs. Whether you prefer a shared house, a studio apartment, or a quiet place to study, we have options for you!</p>
+    <div class="features">
+        <div class="feature">Affordable Pricing</div>
+        <div class="feature">Prime Locations</div>
+        <div class="feature">Student-Friendly Environment</div>
+    </div>
+</div>
 
 </body>
 </html>
+
+LOGIN PAGE:
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Profile Page</title>
+<title>YourChoiceAccom - Login / Sign Up</title>
 <style>
-/* Subheading Styling */
-.subheading {
-text-align: center;
-font-family: 'Poppins', sans-serif; /* Modern font */
-font-size: 2em;
-font-weight: 600;
-color: #0077b6; /* Blue color */
-margin-top: 20px;
-padding: 10px;
-border-bottom: 3px solid #0077b6; /* Underline effect */
-display: inline-block;
-}
-
-/* Centering the subheading */
-.subheading-container {
-text-align: center;
-margin-top: 30px;
-}
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .header {
+        background-color: #0077b6;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 2em;
+        font-weight: bold;
+        width: 100%;
+    }
+    .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 300px;
+        text-align: center;
+    }
+    .tabs {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .tab {
+        flex: 1;
+        padding: 10px;
+        cursor: pointer;
+        background: #0077b6;
+        color: white;
+        border-radius: 5px;
+    }
+    .tab.active {
+        background: #005f87;
+    }
+    input {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #0077b6;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color: #005f87;
+    }
 </style>
 </head>
 <body>
 
-<!-- Subheading Section -->
-<div class="subheading-container">
-<h2 class="subheading">Profile Page</h2>
+<div class="header">YourChoiceAccom - Student Housing</div>
+
+<div class="container">
+    <div class="tabs">
+        <div class="tab active" onclick="showForm('login')">Log In</div>
+        <div class="tab" onclick="showForm('signup')">Sign Up</div>
+    </div>
+
+    <form id="login-form">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Log In</button>
+    </form>
+
+    <form id="signup-form" style="display: none;">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
 </div>
+
+<script>
+    function showForm(formType) {
+        document.getElementById('login-form').style.display = formType === 'login' ? 'block' : 'none';
+        document.getElementById('signup-form').style.display = formType === 'signup' ? 'block' : 'none';
+        
+        document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+        document.querySelector(`[onclick="showForm('${formType}')"]`).classList.add('active');
+    }
+</script>
 
 </body>
 </html>
 
+PROFILE PAGE:
 
-<p></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YourChoiceAccom - Student Housing</title>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    /* Header */
+    .header {
+        background-color: #0077b6;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    /* Navigation */
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #005f87;
+        padding: 15px 20px;
+    }
+    .nav-btn {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 1.2em;
+    }
+    .nav-btn:hover {
+        background-color: #004466;
+    }
+    /* Main Content */
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    label, select, input, textarea {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #0077b6;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2em;
+    }
+    button:hover {
+        background-color: #005f87;
+    }
+</style>
+</head>
 <body>
-<label for="profilePic">Upload Profile Picture:</label>
-<input type="file" id="profilePic" name="profilePic" accept="image/*">
-<p></p>
-<textarea rows="3" cols="50" name="bio" placeholder="Write a short bio about yourself..."></textarea>
-<p></p>
-<select>
-<option value="" disabled="disabled" selected="selected" >Please select housing type</option>
-<option value="1-3 people">Shared appartments</option>
-<option value="1-3 people">Shared housing</option>
-</select>
-<p></p>
-<select multiple>
-<option value="1-3 people">Shared appartments</option>
-<option value="1-3 people">Shared housing</option>
-</select>
-<button>Use my location</button>
-<input type="text" name="search" placeholder="Search box">
-<p></p>
-<textarea rows="6" cols="50" placeholder="Enter your feedback"></textarea>
-</textarea>
-<input type="search" name="search" placeholder="Search by keywords (e.g., 'near university')">
-<p></p>
-<input type="date" name="startDate">
-<input type="time" name="reminder">
-<p></p>
-<label for="gender">Preferred Gender:</label>
-<select id="gender" name="gender">
-<option value="any">Any</option>
-<option value="male">Male</option>
-<option value="female">Female</option>
-<option value="non-binary">Non-binary</option>
-</select>
-<p></p>
-<label for="studyField">Field of Study:</label>
-<input type="text" id="studyField" name="studyField" placeholder="Enter study field">
-<p></p>
-<label for="budget">Budget (per month):</label>
-<input type="number" id="budget" name="budget" min="0" placeholder="Enter max budget">
-<p></p>
-<label for="roomType">Room Type:</label>
-<select id="roomType" name="roomType">
-<option value="single">Single Room</option>
-<option value="shared">Shared Room</option>
-<option value="studio">Studio Apartment</option>
-</select>
-<p></p>
-<label><input type="checkbox" name="amenities" value="wifi"> Wi-Fi</label>
-<label><input type="checkbox" name="amenities" value="laundry"> Laundry Facilities</label>
-<label><input type="checkbox" name="amenities" value="parking"> Parking</label>
-<p></p>
-<label>Are you okay with pets?</label>
-<input type="radio" name="pets" value="yes">Yes
-<input type="radio" name="pets" value="no">No
-<p></p>
-<label>Preferred Noise Level:</label>
-<select name="noiseLevel">
-<option value="quiet">Quiet</option>
-<option value="moderate">Moderate</option>
-<option value="lively">Lively</option>
-</select>
-<p></p>
-<label for="accommodationPics">Upload Photos of Accommodation:</label>
-<input type="file" id="accommodationPics" name="accommodationPics" accept="image/*" multiple>
-<input type="search" name="search" placeholder="Search by keywords (e.g., 'near university')">
 
-<button>Connect via WhatsApp</button>
-<button>Send a Message</button>
-<p></p>
-<input type="checkbox" name="check1" value="show">Show Map<br>
-<input type="radio" name="location" value="location" checked>Use my location<br>
-<input type="radio" name="location" value="default">Use central Bristol<br>
+<div class="header">YourChoiceAccom - Find Your Perfect Student Home</div>
+
+<!-- Navigation Bar -->
+<nav class="nav-container">
+    <a href="home page.html" class="nav-btn">Home</a>
+    <a href="profile page.html" class="nav-btn">Profile</a>
+    <a href="login.html" class="nav-btn">Log In</a>
+</nav>
+
+<!-- Profile Section -->
+<div class="container">
+    <h2>Profile Page</h2>
+    <label for="profilePic">Upload Profile Picture:</label>
+    <input type="file" id="profilePic" name="profilePic" accept="image/*">
+
+    <textarea rows="3" name="bio" placeholder="Write a short bio about yourself..."></textarea>
+    
+    <label for="housingType">Select Housing Type:</label>
+    <select id="housingType">
+        <option disabled selected>Please select housing type</option>
+        <option value="shared_apartment">Shared Apartment</option>
+        <option value="shared_house">Shared House</option>
+    </select>
+
+    <label for="roomType">Room Type:</label>
+    <select id="roomType">
+        <option value="single">Single Room</option>
+        <option value="shared">Shared Room</option>
+        <option value="studio">Studio Apartment</option>
+    </select>
+
+    <label for="budget">Budget (per month):</label>
+    <input type="number" id="budget" name="budget" min="0" placeholder="Enter max budget">
+    
+    <label>Preferred Gender:</label>
+    <select name="gender">
+        <option value="any">Any</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="non-binary">Non-binary</option>
+    </select>
+    
+    <label for="studyField">Field of Study:</label>
+    <input type="text" id="studyField" name="studyField" placeholder="Enter study field">
+    
+    <label>Are you okay with pets?</label>
+    <input type="radio" name="pets" value="yes"> Yes
+    <input type="radio" name="pets" value="no"> No
+    
+    <label>Preferred Noise Level:</label>
+    <select name="noiseLevel">
+        <option value="quiet">Quiet</option>
+        <option value="moderate">Moderate</option>
+        <option value="lively">Lively</option>
+    </select>
+    
+    <label>Preferred Amenities:</label>
+    <label><input type="checkbox" name="amenities" value="wifi"> Wi-Fi</label>
+    <label><input type="checkbox" name="amenities" value="laundry"> Laundry Facilities</label>
+    <label><input type="checkbox" name="amenities" value="parking"> Parking</label>
+    
+    <button>Find Accommodation</button>
+</div>
 
 </body>
 </html>
