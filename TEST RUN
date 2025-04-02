@@ -1,0 +1,21 @@
+use case ID            requirement ID       test case                   status 
+
+UC1(register)           FR1                   TF1                         PASS
+
+UC2(login)              FR8                   TF2                         PASS
+
+UC3(set prefences)      FR2                   TF3                         PASS
+
+UC4(serach roommates)   FR3,FR6               TF4                           PARTIAL
+
+UC5(send request)       FR5                   TF5                          FAIL
+   
+UC6(admin)              FR9                   TF6                          FAIL
+
+                        NFR1(usability)       ALL UI TESTS                  PASS
+
+                        NFR2(perforance)      TU4 (DATA LOAD SPEED)         SLOW
+
+                        NFR3 (SECURITY)       TF1, TF2                      PASS (BASIC)
+
+                        NFR6(MAINTAINABILITY)  CODE DTRUCTURE REVIEW        PASS
