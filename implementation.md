@@ -101,14 +101,13 @@ TODO: Explain how each use-case works by providing step-by-step screenshots for 
 (We tested this ourselves—here’s how a student would use it.)
 
 Sign Up / Log In
-
 Go to /login.html
-Click "Sign Up" if new
-Enter email, name, password
+Click "Sign Up" if new       ![alt text](<../Desktop/Screenshot 2025-04-02 at 14.36.33.png>)
+Enter email, name, password      
 Log in to access profile
+![alt text](<../Desktop/Screenshot 2025-04-02 at 14.36.37.png>)
 
 Set Preferences
-
 Go to /profile.html
 Fill in:
 Budget
@@ -117,16 +116,20 @@ Noise tolerance (Quiet/Moderate/Lively)
 Pet allergies?
 Study habits (Night owl/Early bird)
 Click Save
+![alt text](<../Desktop/Screenshot 2025-04-02 at 14.39.24.png>)
 
 Find Roommates
-
 The app compares your preferences with others
 Shows a list of matches with % compatibility
 Click a profile to see more details
+![alt text](<../Desktop/Screenshot 2025-04-02 at 14.40.09.png>)
 
 Admin Features
-
 (Not fully built yet, but planned:)
 View all users
 Delete fake accounts
 Update accommodation listings
+
+Home page 
+map
+![alt text](<../Desktop/Screenshot 2025-04-02 at 14.39.38.png>)
